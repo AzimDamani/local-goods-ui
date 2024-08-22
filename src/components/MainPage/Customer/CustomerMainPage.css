@@ -1,0 +1,6 @@
+.mainpage-products{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    padding: 2rem;
+}
+

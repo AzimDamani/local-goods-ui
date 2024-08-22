@@ -1,0 +1,41 @@
+.navbar{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    background-color: black;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 2rem;
+    color: greenyellow;
+}
+
+.link{
+    text-decoration: none;
+    margin-inline: 1rem;
+    color: white;
+    font-weight: 500;
+}
+
+.link:hover{
+    color: greenyellow;
+}
+
+.search-bar{
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.login-btn{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    font-weight: 600;
+}
+.login-btn:hover{
+    background-color: rgb(197, 240, 134);
+}
